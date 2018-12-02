@@ -79,10 +79,10 @@
             android:layout_height="match_parent"
             android:clipToPadding="false"
             android:fadingEdgeLength="@dimen/fading_edge_length"
-            android:paddingEnd="@dimen/preview_side_margin"
-            android:paddingLeft="@dimen/preview_side_margin"
-            android:paddingRight="@dimen/preview_side_margin"
             android:paddingStart="@dimen/preview_side_margin"
+            android:paddingLeft="@dimen/preview_side_margin"
+            android:paddingEnd="@dimen/preview_side_margin"
+            android:paddingRight="@dimen/preview_side_margin"
             android:requiresFadingEdge="vertical" />
 
         <View
@@ -122,7 +122,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:foreground="?attr/selectableItemBackgroundBorderless"
-            android:background="@drawable/btn_green"
+            android:background="@color/colorPrimaryDark"
             android:clickable="true"
             android:focusable="true">
 
@@ -131,11 +131,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@android:color/transparent"
+                android:background="@color/colorPrimaryDark"
                 android:clickable="false"
+                android:drawableStart="@drawable/sticker_3rdparty_wa"
                 android:drawableLeft="@drawable/sticker_3rdparty_wa"
                 android:drawablePadding="8dp"
-                android:drawableStart="@drawable/sticker_3rdparty_wa"
                 android:focusable="false"
                 android:foreground="@android:color/transparent"
                 android:text="@string/add_to_whatsapp" />
